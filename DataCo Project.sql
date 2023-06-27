@@ -130,7 +130,7 @@ GROUP BY [Order Id], [OrderDate], [Customer Id], [Delivery Status], [Customer Ci
 [ShippingDate]
 
 
---Create view to determine profitability of customer when fulfilling 1st and 2nd unprofitable orders
+--Create view to determine profitability of customer when fulfilling 1st, 2nd, and 3rd unprofitable orders
 
 Create view [Customer Profits]
 as
